@@ -1,0 +1,36 @@
+@mixin borderRadius_10 {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+@mixin borderRadius_0 {
+  border-radius: 0 0 10px 10px;
+  -webkit-border-radius: 0 0 10px 10px;
+  -moz-border-radius: 0 0 10px 10px;
+  -ms-border-radius: 0 0 10px 10px;
+  -o-border-radius: 0 0 10px 10px;
+}
+@mixin transition {
+  transition: transform 1s ease;
+  -webkit-transition: transform 1s ease;
+  -moz-transition: transform 1s ease;
+  -ms-transition: transform 1s ease;
+  -o-transition: transform 1s ease;
+}
+
+@mixin rotateX_180 {
+  transform: rotateX(180deg);
+  -webkit-transform: rotateX(180deg);
+  -moz-transform: rotateX(180deg);
+  -ms-transform: rotateX(180deg);
+  -o-transform: rotateX(180deg);
+}
+@mixin rotateY_180 {
+  transform: rotateY(180deg);
+  -webkit-transform: rotateY(180deg);
+  -moz-transform: rotateY(180deg);
+  -ms-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+}

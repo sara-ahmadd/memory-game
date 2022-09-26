@@ -1,0 +1,71 @@
+doctype html
+html
+  head
+    meta(charset="UTF-8")
+    title Memory Game
+    link(rel="stylesheet" href="./css/main.css")
+    script(defer src="./js/main.js")
+  body
+    .container
+      .form
+          input(type='text' placeholder='Write Your Name')
+          input(type='submit' value='Start')
+      .data
+          p Name : 
+            span(id='name')
+          p Score : 
+            span(id='score') 0
+      .block-of-images
+          .completed: p Congratulations!👍 
+          .image(data-name='image-1')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-1.jpg')
+          .image(data-name='image-1')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-1.jpg')
+          .image(data-name='image-2')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-2.jpg')
+          .image(data-name='image-2')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-2.jpg')
+          .image(data-name='image-3')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-3.jpg')
+          .image(data-name='image-3')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-3.jpg')
+          .image(data-name='image-4')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-4.jpg')
+          .image(data-name='image-4')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-4.jpg')
+          .image(data-name='image-5')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-5.jpg')
+          .image(data-name='image-5')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-5.jpg')
+          .image(data-name='image-6')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-6.jpg')
+          .image(data-name='image-6')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-6.jpg')
+          .image(data-name='image-7')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-7.jpg')
+          .image(data-name='image-7')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-7.jpg')
+          .image(data-name='image-8')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-8.jpg')
+          .image(data-name='image-8')
+            div(class='face front'): h2 ?
+            div(class='face back'): img(src='./images/image-8.jpg')
+      audio(src='./audio/fail.mp3' id='fail' preload='auto')
+      audio(src='./audio/succes.mp3' id='succes' preload='auto')
+      audio(src='./audio/wow.mp3' id='wow' preload='auto')
+      audio(src='./audio/ready.mp3' id='ready' preload='auto')

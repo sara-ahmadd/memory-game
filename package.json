@@ -1,0 +1,24 @@
+{
+  "name": "memory-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "nodemon server.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sara",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-livereload": "^4.0.2",
+    "gulp-notify": "^4.0.0",
+    "gulp-pug": "^5.0.0",
+    "gulp-sass": "^5.1.0",
+    "nodemon": "^2.0.20",
+    "sass": "^1.55.0"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
